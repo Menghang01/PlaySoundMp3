@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0; 
+}
+
+html{
+    background-image: linear-gradient(rgb(85, 101, 101),rgb(177, 201, 201));
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+.sound {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 35%;
+    top: 100px;
+    
+}
+
+
+.pet{    padding: 15px; 
+    font-size: 25px;
+    border: 1px solid aqua;
+    margin-right: 10px;
+    width: 100px;
+    text-align: center;
+}
+
+.pet:hover{
+    background-color: blueviolet;
+}
+
+.animal {
+    position: relative;
+    left: 40%;
+    top:50px;
+    font-size: 30px;
+    font-family: cursive;
+    text-shadow: 2px 2px aqua;
+}
+
+.active {
+    border: 1px solid aquamarine;
+    background-color: blueviolet;
+}
